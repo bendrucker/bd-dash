@@ -28,6 +28,8 @@ $hot: #ff5131; // 25 and above
 // ----------------------------------------------------------------------------
 .widget-verbinski {
 
+  padding: 0 !important;
+
   .cold5 { background-color: $cold5; } 
   .cold4 { background-color: $cold4; }
   .cold3 { background-color: $cold3; }
@@ -40,7 +42,7 @@ $hot: #ff5131; // 25 and above
 
   #right-now, #today, #this-week {
     float: left;
-    width: 33%;
+    width: calc(100%/3);
     height: 100%;
 
     .column-inner {
