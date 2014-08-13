@@ -10,7 +10,7 @@ forecast_location_lat = ENV['LATITUDE']
 forecast_location_long = ENV['LONGITUDE'] 
 
 # Unit Format
-forecast_units = "ca" # like "si", except windSpeed is in kph
+forecast_units = "us" # like "si", except windSpeed is in kph
 
 def time_to_str(time_obj)
   """ format: 5 pm """

@@ -42,7 +42,7 @@ $hot: #ff5131; // 25 and above
 
   #right-now, #today, #this-week {
     float: left;
-    width: calc(100%/3);
+    width: 33.333333%;
     height: 100%;
 
     .column-inner {
