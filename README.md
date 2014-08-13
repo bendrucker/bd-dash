@@ -1,1 +1,4 @@
-Check out http://shopify.github.com/dashing for more information.
+bd-dash
+=======
+
+My Dashing dashboard that I display on my desk
