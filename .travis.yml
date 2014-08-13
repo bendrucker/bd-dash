@@ -1,4 +1,8 @@
 language: ruby
-env:
-  global:
-    secure: bSax2O5heHvCNFBzc5ZwcmuRuyIPCASoB+ydvSGy592+7xyZcA0qCbB/bj1zPzVgEWN4W/KB2rYGDwINGqVXauojvrJYHP2tcSZqjiYBtVDRVhVwlDl7k1bitlL0lRQ2kr+P1SPzDBcN6XdWt3skfCDc5ODpKPe4PeFcdX7tUb4=
+deploy:
+  provider: heroku
+  api_key:
+    secure: HUhJ8ewkCIOlbIrWHjl3xU4aAIZqQHsmVZpuzecHf8PPHIONW2NWNow/En3QrbBILe4Jpuw6GiXo0tQ4AY0tnIadgzwYz4s/gob0v8sFs0JoFJqd4f55Yrr2kgVX90yj6e3v4IS41z/1NgM4rHj+bgUPLlKaPphvAjsn6YOTujM=
+  app: bd-dash
+  on:
+    repo: bendrucker/bd-dash
